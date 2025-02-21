@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyadev Mishra - Frontend Developer Portfolio</title>
+    <link rel="shortcut icon" href="./images/SM_logo.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="flex items-center justify-center md:p-5 md:bg-gray-800 text-white md:fixed w-full top-0 left-0 z-10 shadow-lg">
+        <ul class="hidden md:flex gap-8 space-x-8">
+            <li><a href="#about" class="hover:text-sky-500 flex items-center gap-2"><i class="fas fa-user"></i>
+                    About</a></li>
+            <li><a href="#skills" class="hover:text-sky-500 flex items-center gap-2"><i class="fas fa-code"></i>
+                    Skills</a></li>
+            <li><a href="#projects" class="hover:text-sky-500 flex items-center gap-2"><i class="fas fa-folder"></i>
+                    Projects</a></li>
+            <li><a href="#experience" class="hover:text-sky-500 flex items-center gap-2"><i
+                        class="fas fa-briefcase"></i> Experience</a></li>
+            <li><a href="#contact" class="hover:text-sky-500 flex items-center gap-2"><i class="fas fa-envelope"></i>
+                    Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav md:hidden fixed z-50 bottom-0 w-full bg-gray-800 text-white pb-3 pt-2 flex justify-around shadow-lg">
+        <div class="flex flex-col items-center">
+            <a href="#about"><i class="fas fa-user text-xl"></i></a>
+            <span class="text-xs text-gray-500 mt-1">About</span>
+        </div>
+        <div class="flex flex-col items-center">
+            <a href="#skills"><i class="fas fa-code text-xl"></i></a>
+            <span class="text-xs text-gray-500 mt-1">Skills</span>
+        </div>
+        <div class="flex flex-col items-center">
+            <a href="#projects"><i class="fas fa-folder text-xl"></i></a>
+            <span class="text-xs text-gray-500 mt-1">Projects</span>
+        </div>
+        <div class="flex flex-col items-center">
+            <a href="#experience"><i class="fas fa-briefcase text-xl"></i></a>
+            <span class="text-xs text-gray-500 mt-1">Experience</span>
+        </div>
+        <div class="flex flex-col items-center">
+            <a href="#contact"><i class="fas fa-envelope text-xl"></i></a>
+            <span class="text-xs text-gray-500 mt-1">Contact</span>
+        </div>
+    </div>
+
+    <!-- Intro Section -->
+    <section id="intro" class="container mx-auto flex flex-wrap justify-between items-center py-5 md:py-32 px-6 md:px-12">
+        <div class="w-full md:w-1/2 space-y-6">
+            <h1 class="text-4xl font-semibold text-white">Hi 👋, I'm Satyadev Mishra</h1>
+            <p class="text-lg text-gray-300">Frontend Developer (1+ year of experience)</p>
+            <p class="text-md text-gray-400">
+            I'm a Frontend Developer with over a year of experience, skilled in HTML, CSS, JavaScript, React.js, Next.js, API
+            integration, JWT, MongoDB, Node.js, and Express.js. I completed my MCA (Master of Computer Applications) in 2024 and
+            love building modern, user-friendly web applications.
+            
+            I'm excited to bring my skills to your team and would love to connect! 🚀</p>            
+            <div class="flex gap-6 mt-6">
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/satyadevmishra/" target="_blank"
+                    class="text-sky-500 hover:text-white text-3xl">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <!-- GitHub Icon -->
+                <a href="https://github.com/satyadev" target="_blank" class="text-sky-500 hover:text-white text-3xl">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="/images/CV_Satyadev_Mishra_ Frontend_Developer.pdf" download
+                    class="px-6 py-2 bg-blue-500 text-gray-900 font-semibold rounded-lg hover:bg-blue-400"><i
+                        class="fa-solid fa-download"></i> My
+                    Resume</a>
+            </div>
+                
+        </div>
+        <div class="w-full md:w-1/3">
+            <img src="./images/SatyadevMishra.png" alt="Abstract Image"
+                class="rounded-xl shadow-lg object-cover h-full w-full clip-path-custom">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto bg-gray-800 text-white py-16 px-6 rounded-xl shadow-lg mb-12">
+        <h2 class="text-3xl font-semibold text-center mb-6 text-blue-500 uppercase">About Me</h2>
+        <p class="text-lg text-gray-300 text-justify">
+        Hi, I'm Satyadev Mishra, a passionate React Developer with experience in building modern and scalable web
+        applications. I specialize in React.js, Next.js, Tailwind CSS, and Shadcn, creating seamless user experiences with
+        clean and efficient code.
+        
+        Currently, I'm working at Synngular IT Consulting Pvt. Ltd., where I develop web applications using the latest
+        technologies. With past experience in Vue.js, Node.js, and MongoDB, I love turning ideas into reality by
+        collaborating with designers and backend teams.
+        
+        I have worked on diverse projects, including tour booking systems, dashboard applications, and traffic management
+        platforms, showcasing my ability to build dynamic and functional web solutions.
+        
+        Let's connect and build something amazing! 🚀</p>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="container mx-auto py-16 px-6 mb-12">
+        <h2 class="text-3xl font-semibold text-center mb-6 text-blue-500 uppercase">Skills</h2>
+        <div class="grid grid-cols-3 md:grid-cols-6 gap-6 text-center">
+            <div class="skill-item">
+                <i class="fab fa-html5 text-4xl text-sky-500"></i>
+                <p class="text-gray-300 mt-2">HTML</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-css3-alt text-4xl text-sky-500"></i>
+                <p class="text-gray-300 mt-2">CSS</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-js text-4xl text-sky-500"></i>
+                <p class="text-gray-300 mt-2">JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-react text-4xl text-sky-500"></i>
+                <p class="text-gray-300 mt-2">React.js</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-node text-4xl text-sky-500"></i>
+                <p class="text-gray-300 mt-2">Node.js</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-git-alt text-4xl text-sky-500"></i>
+                <p class="text-gray-300 mt-2">Git</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-github text-4xl text-sky-500"></i>
+                <p class="text-gray-300 mt-2">GitHub</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto py-16 px-6">
+        <h2 class="text-3xl font-semibold text-center mb-6 text-blue-500 uppercase">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-800 rounded-lg p-6 shadow-lg hover:scale-105 transition">
+                <img src="./images/softsynth.png" class="rounded-lg mb-4">
+                <h3 class="text-xl">Softsynth Website</h3>
+                <p class="text-gray-300">Created static responsive website: having 6 pages, <br> <b>Technology used:</b> <i>React.js</i>, <i>Tailwind CSS</i> and <i>React router</i>.</p>
+                <div class="flex items-center justify-between gap-4 mt-4">
+                    <a href="https://github.com/satyadev-mishra/softsynth" target="_blank"
+                        class="px-6 py-2 bg-blue-500 text-gray-900 font-semibold rounded-lg hover:bg-blue-400"><i
+                            class="fa-solid fa-code-branch"></i> Code</a>
+            
+                    <a href="https://softsynth.netlify.app" target="_blank"
+                        class="px-6 py-2 bg-blue-500 text-gray-900 font-semibold rounded-lg hover:bg-blue-400"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+            
+                </div>
+            </div>
+            <div class="bg-gray-800 rounded-lg p-6 shadow-lg hover:scale-105 transition">
+                <img src="./images/weavr.png" class="rounded-lg mb-4">
+                <h3 class="text-xl">Weavr Webapp</h3>
+                <p class="text-gray-300">Created login, Signup and Dashboard Profile management pages. Integated APIs using axios. <br> <b>Technology used:</b> <i>React.js</i>, and <i>Tailwind CSS</i>.</p>
+                <div class="flex items-center justify-between gap-4 mt-4">
+                   
+
+                    <a href="https://sense.weavr.online/#/" target="_blank" class="px-6 py-2 bg-blue-500 text-gray-900 font-semibold rounded-lg hover:bg-blue-400"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+    
+                </div>
+            </div>
+            <div class="bg-gray-800 rounded-lg p-6 shadow-lg hover:scale-105 transition">
+                <img src="./images/flyairnova.png" class="rounded-lg mb-4">
+                <h3 class="text-xl">Flyairnova Admin Panel</h3>
+                <p class="text-gray-300">Created admin panel using <b>Next.js</b>, and <b>Tailwind CSS</b>.</p>
+                <div class="flex items-center justify-between gap-4 mt-4">
+                    <a href="https://github.com/satyadev-mishra/flyairnova" target="_blank"
+                        class="px-6 py-2 bg-blue-500 text-gray-900 font-semibold rounded-lg hover:bg-blue-400"><i
+                            class="fa-solid fa-code-branch"></i> Code</a>
+            
+                    <a href="https://flyairnova.netlify.app" target="_blank"
+                        class="px-6 py-2 bg-blue-500 text-gray-900 font-semibold rounded-lg hover:bg-blue-400"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+            
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="container mx-auto py-16 px-6">
+        <h2 class="text-3xl font-semibold text-center mb-6 text-blue-500 uppercase">Experience</h2>
+        <div class="bg-gray-800 rounded-lg p-6 shadow-lg mb-6">
+            <h3 class="text-xl text-sky-500">React Developer</h3>
+            <div class="text-gray-400 flex justify-between gap-2 items-center">
+                <p>Synngular</p>
+                <i>Nov 2024 – 🟢Present</i>
+            </div>
+            <p class="text-gray-300">Working with React.js, Next.js, and Shadcn to create web applications. Using
+                Synngular API platform to build APIs.</p>
+        </div>
+        <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+            <h3 class="text-xl text-sky-500">Internship</h3>
+           <div class="text-gray-400 flex justify-between gap-2 items-center">
+            <p>Lyxel Labs Pvt. Ltd</p>
+            <i>July 2024 – Nov 2024</i>
+           </div>
+            <p class="text-gray-300 mt-3">Worked with JavaScript and Vue.js to create a Dashboard Application. Collaborated
+                with UI/UX designers and backend developers.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="container mx-auto py-16 px-6 mb-12">
+    <h2 class="text-3xl font-semibold text-center mb-6 text-blue-500 uppercase">Contact</h2>
+    <div class="text-center">
+        <a href="mailto:satyadevmishra@outlook.com" class="text-sky-500 hover:text-white">Email:
+            satyadevmishra@outlook.com</a>
+        <br>
+        <a href="tel:+919313758989" class="text-sky-500 hover:text-white">Phone: +91- 93137 58989</a>
+    </div>
+    <div class="flex justify-center gap-6 mt-6">
+        <!-- LinkedIn Icon -->
+        <a href="https://www.linkedin.com/in/satyadevmishra/" target="_blank"
+            class="text-sky-500 hover:text-white text-3xl">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <!-- GitHub Icon -->
+        <a href="https://github.com/satyadev" target="_blank" class="text-sky-500 hover:text-white text-3xl">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+</section>
+
+
+</body>
+
+</html>
